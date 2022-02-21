@@ -334,80 +334,80 @@ namespace Interpretador_Acad.ConsoleApp
 
         for (int j = 0; j < decimaLinha.Length; j++)
         {
-            conjunto1 = conjunto1 + decimaLinha[j];
-            conjunto2 = conjunto2 + decimaprimeiraLinha[j];
-            conjunto3 = conjunto3 + decimasegundaLinha[j];
+        conjunto1 = conjunto1 + decimaLinha[j];
+        conjunto2 = conjunto2 + decimaprimeiraLinha[j];
+        conjunto3 = conjunto3 + decimasegundaLinha[j];
 
-            if (conjunto1 == " __ " && conjunto2 == "|  |" && conjunto3 == "|__|")
-            {
-                Console.Write("0");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == "    " && conjunto2 == "   |" && conjunto3 == "   |")
-            {
-                Console.Write("1");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == " __|" && conjunto3 == "|__ ")
-            {
-                Console.Write("2");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == " __|" && conjunto3 == " __|")
-            {
-                Console.Write("3");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == "    " && conjunto2 == "|__|" && conjunto3 == "   |")
-            {
-                Console.Write("4");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == "|__ " && conjunto3 == " __|")
-            {
-                Console.Write("5");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == "|__ " && conjunto3 == "|__|")
-            {
-                Console.Write("6");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == "   |" && conjunto3 == "   |")
-            {
-                Console.Write("7");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == "|__|" && conjunto3 == "|__|")
-            {
-                Console.Write("8");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
-            if (conjunto1 == " __ " && conjunto2 == "|__|" && conjunto3 == " __|")
-            {
-                Console.Write("9");
-                conjunto1 = "";
-                conjunto2 = "";
-                conjunto3 = "";
-            }
+        if (conjunto1 == " __ " && conjunto2 == "|  |" && conjunto3 == "|__|")
+        {
+            Console.Write("0");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == "    " && conjunto2 == "   |" && conjunto3 == "   |")
+        {
+            Console.Write("1");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == " __|" && conjunto3 == "|__ ")
+        {
+            Console.Write("2");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == " __|" && conjunto3 == " __|")
+        {
+            Console.Write("3");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == "    " && conjunto2 == "|__|" && conjunto3 == "   |")
+        {
+            Console.Write("4");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == "|__ " && conjunto3 == " __|")
+        {
+            Console.Write("5");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == "|__ " && conjunto3 == "|__|")
+        {
+            Console.Write("6");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == "   |" && conjunto3 == "   |")
+        {
+            Console.Write("7");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == "|__|" && conjunto3 == "|__|")
+        {
+            Console.Write("8");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+        }
+        if (conjunto1 == " __ " && conjunto2 == "|__|" && conjunto3 == " __|")
+        {
+            Console.Write("9");
+            conjunto1 = "";
+            conjunto2 = "";
+            conjunto3 = "";
+          }
         }
         }
     }
