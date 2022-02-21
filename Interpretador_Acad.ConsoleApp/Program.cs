@@ -330,7 +330,6 @@ namespace Interpretador_Acad.ConsoleApp
             }
         }
 
-
         Console.WriteLine();
 
         for (int j = 0; j < decimaLinha.Length; j++)
