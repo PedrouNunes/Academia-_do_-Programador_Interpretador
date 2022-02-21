@@ -86,6 +86,10 @@ namespace Interpretador_Acad.ConsoleApp
         char[] decimaprimeiraLinha = l11.ToCharArray();
         char[] decimasegundaLinha = l12.ToCharArray();
 
+Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
+        Console.WriteLine(); 
+        Console.WriteLine("Saída: ");
+        Console.WriteLine();
 
         String conjunto1 = "", conjunto2 = "", conjunto3 = "";
         for (int i = 0; i < primeiraLinha.Length; i++)
